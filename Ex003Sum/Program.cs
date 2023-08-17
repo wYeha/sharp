@@ -1,3 +1,3 @@
-﻿int a = 1;
-int b = 2;
+﻿int a = new Random().Next(1,10);
+int b = new Random().Next(1,10);
 Console.WriteLine(a+b);
